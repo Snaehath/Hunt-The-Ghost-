@@ -1,14 +1,14 @@
 
 
 const cardObjectDefinitions = [
-    { id: 1, imagePath: '/Image/price.png' },
-    { id: 2, imagePath: '/Image/gas.png' },
-    { id: 3, imagePath: '/Image/soap.png' },
-    { id: 4, imagePath: '/Image/ghost.png' }
+    { id: 1, imagePath: './Image/price.png' },
+    { id: 2, imagePath: './Image/gas.png' },
+    { id: 3, imagePath: './Image/soap.png' },
+    { id: 4, imagePath: './Image/ghost.png' }
 ]
 const aceId = 4
 
-const cardBackImgPath = '/Image/card-bg.png'
+const cardBackImgPath = './Image/card-bg.png'
 
 let cards = []
 
@@ -51,10 +51,10 @@ const localStorageGameKey = "HTA"
 /* <div class="card">
 <div class="card-inner">
     <div class="card-front">
-        <img src="/images/card-JackClubs.png" alt="" class="card-img">
+        <img src="./Images/card-JackClubs.png" alt="" class="card-img">
     </div>
     <div class="card-back">
-        <img src="/images/card-back-Blue.png" alt="" class="card-img">
+        <img src="./Images/card-back-Blue.png" alt="" class="card-img">
     </div>
 </div>
 </div> */
