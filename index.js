@@ -228,7 +228,7 @@ function startRound() {
 }
 function initializeNewRound() {
     roundNum++
-    playGameButtonElem.disabled = false
+    playGameButtonElem.disabled = true
 
     gameInProgress = true
     shufflingInProgress = true
