@@ -9,6 +9,7 @@ const cardObjectDefinitions = [
 const aceId = 4
 
 const cardBackImgPath = './Image/card-bg.png'
+const audio = new Audio('./audio/retreat (1).mp3')
 
 let cards = []
 
@@ -59,7 +60,7 @@ const localStorageGameKey = "HTA"
 </div>
 </div> */
 
-
+playGameButtonElem.addEventListener('click', () => audio.play())
 loadGame()
 
 
@@ -146,7 +147,7 @@ function outputChoiceFeedBack(hit) {
         updateStatusElement(currentGameStatusElem, "block", winColor, "Well Done Soldier!! ")
     }
     else {
-        updateStatusElement(currentGameStatusElem, "block", loseColor, "Mission failed, we'll get 'em next time.")
+        updateStatusElement(currentGameStatusElem, "block", loseColor, "Mission failed, we'll get'em next time.")
     }
 }
 
